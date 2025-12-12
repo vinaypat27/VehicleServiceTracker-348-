@@ -6,16 +6,6 @@ The application allows users to add vehicles, record maintenance events, and vie
 
 The frontend is built with React, the backend uses Express, and all data is stored in a SQLite database. 
 
-## Tech Stack
-
-Frontend  
-React
-
-Backend  
-Node.js with Express
-
-Database  
-SQLite
 
 ## Features
 
