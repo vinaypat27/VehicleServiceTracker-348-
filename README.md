@@ -4,7 +4,7 @@ Vehicle Service Tracker is a full stack web application for tracking vehicles an
 
 The application allows users to add vehicles, record maintenance events, and view service history stored in a persistent database.
 
-The frontend is built with React, the backend uses Express, and all data is stored in a SQLite database. All reports and views are generated using real SQL queries rather than mock data.
+The frontend is built with React, the backend uses Express, and all data is stored in a SQLite database. 
 
 ## Tech Stack
 
