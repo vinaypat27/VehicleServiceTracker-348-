@@ -1,17 +1,44 @@
-Vehicle Service Tracker
-This project is a full-stack web application for tracking vehicles and their service records. It uses a React frontend, an Express backend, and a persistent SQLite database to store and manage vehicle maintenance data.
-The application allows users to add vehicles, record service events, and view reports using real SQL queries.
-How to Run the Project
-Prerequisites
-Node.js
-npm
-Steps
-Install frontend dependencies
+# Vehicle Service Tracker
+
+Vehicle Service Tracker is a full stack web application for tracking vehicles and their service records.
+
+The application allows users to add vehicles, record maintenance events, and view service history stored in a persistent database.
+
+The frontend is built with React, the backend uses Express, and all data is stored in a SQLite database. All reports and views are generated using real SQL queries rather than mock data.
+
+## Tech Stack
+
+Frontend  
+React
+
+Backend  
+Node.js with Express
+
+Database  
+SQLite
+
+## Features
+
+Add and manage vehicles  
+Record vehicle service and maintenance events  
+Persist data using a SQLite database  
+View service history and reports using real SQL queries  
+
+## How to Run the Project
+
+### Prerequisites
+
+Node.js  
+npm  
+
+### Installation and Run 
+
 npm install
-Install backend dependencies
 cd server
 npm install
 cd ..
-Start the application
 npm run dev
-The frontend runs locally in the browser and communicates with the backend API running on port 3001.
+
+The frontend runs locally in your browser.
+The backend API runs on port 3001.
+The frontend communicates with the backend using HTTP requests.
